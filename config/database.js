@@ -1,11 +1,11 @@
 // database module
 var mysql = require('mysql');
 var config = {
-    host: process.env.MYSQLHOST,
-    user: process.env.MYSQLUSER, // your mysql user
-    password: process.env.MYSQLPASSWORD, // your mysql password
-    port: process.env.MYSQLPORT, //port mysql
-    database: process.env.MYSQLDATABASE,
+    host: 'containers-us-west-35.railway.app',
+    user: 'root', // your mysql user
+    password: '7t1r4pUr7erCjDCcpt7c', // your mysql password
+    port: 7427, //port mysql
+    database: 'railway',
     connectionLimit: 10, // this is the max number of connections before your pool starts waiting for a release
     multipleStatements: true
 
