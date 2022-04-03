@@ -1,14 +1,10 @@
 // database module
 var mysql = require('mysql');
 var config = {
-    host: 'containers-us-west-35.railway.app',
-    user: 'root', // your mysql user
-    password: '383190', // your mysql password
-    port: 7427, //port mysql
-    database: 'railway',
-    connectionLimit: 0, // this is the max number of connections before your pool starts waiting for a release
-    multipleStatements: true
-
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'paramarta'
 };
 
 // init database
